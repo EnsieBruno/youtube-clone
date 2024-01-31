@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.png">
+
+<!-- Icons -->
+    <script src="https://kit.fontawesome.com/434658e145.js" crossorigin="anonymous"></script>
+
+<!-- CSS -->
+    <link rel="stylesheet" href="./assets/styles/reset.css">
+    <link rel="stylesheet" href="./assets/styles/header.css">
+    <link rel="stylesheet" href="./assets/styles/main.css">
+    <link rel="stylesheet" href="./assets/styles/root.css">
+    <link rel="stylesheet" href="./assets/styles/media-queries.css">
+    <link rel="stylesheet" href="./assets/styles/home.css">
+
+
+    <title>Youtube</title>
+
+</head>
+
+
+<body>
+
+<!-- Search and profile icons -->
+    <header>
+        <div class="search-container">
+            <span class="logo">
+                <a href="index.html"><img src="./assets/images/logo.png" alt=""></a>
+            </span>
+
+            <div class="search-bar">
+                <span class="search__input">
+                    <input type="text" placeholder="Pesquisar">
+                </span>
+                <span class="search">
+                <a href="#" class="fa-solid fa-magnifying-glass"></a>
+                </span>
+                <span class="speech-search">
+                    <a href="#" class="fa-solid fa-microphone"></a>
+                </span>
+            </div>            
+
+            <div class="profile-buttons">
+                <span id="profile-notifications">
+                    <a href="#" class="fa-regular fa-bell"></a>
+                </span>
+                <span id="profile-img">
+                    <img src="./assets/images/profile.jpeg" alt="profile">
+                </span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container__video">
+            <iframe src="https://www.youtube.com/embed/eB6txyhHFG4?si=S1FZwRkbCYhdkISf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <h1>Titulo do Video Teste</h1>
+        </div>
+
+<!-- Profile information -->
+        <div class="profile__properties">
+            <span id="profile-img-below">
+                <img src="./assets/images/profile.jpeg" alt="profile">
+            </span>
+            <div class="profile-information">
+                <h2>Emilly</h2>
+                <p>3,23 mi de inscritos</p>
+            </div>
+<!-- Botões de like, dislike, compartilhar e mais -->
+            <div class="video-button-info">
+                <span class="subscribe-button video-button" >
+                    <a id="subscribe"  href="#">Inscreva-se</a>
+                </span>
+    
+                <div class="formation-likeable">
+                    <div class="likeable">
+                        <span class="like-button video-button">
+                            <a href="#" class="fa-solid fa-thumbs-up"></a>
+                            <p>200</p>
+                        </span>
+                        <span class="dislike-button video-button">
+                            <a href="#" class="fa-solid fa-thumbs-down"></a>
+                        </span>
+                    </div>
+                    <span class="share-button video-button">
+                        <a href="#" class="fa-solid fa-share-nodes"></a>
+                        <p>Compartilhar</p>
+                    </span>
+
+        
+                    <span class="more-button video-button">
+                        <a href="#">...</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+<!-- Video information - likes , dislikes , views and etc -->
+        
+
+    </main>
+
+</body>
+
+
+</html>

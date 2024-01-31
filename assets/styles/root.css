@@ -1,0 +1,59 @@
+
+
+/* colors */
+*{
+
+--bg-color:#0f0f0f;
+--search-input-color: hsl(0,0%,7%);
+--border-color: hsl(0,0%,18.82%);
+--button-color: hsl(0,0%,18.82%);
+
+}
+
+/* hovers */ 
+
+/* Header */ 
+
+.search-bar  .search:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+.search-bar  .search a:hover{
+    color: #0f0f0f;
+}
+
+.search-bar .speech-search:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+.search-bar .speech-search a:hover{
+    color: #0f0f0f;
+}
+
+/* main */ 
+.subscribe-button:hover {
+background-color: #0f0f0f;
+}
+
+.subscribe-button a:hover {
+    color: white;
+}
+
+.share-button:hover{
+    background-color: white;
+    cursor: pointer;
+}
+.share-button p:hover {
+    color: black;
+}
+
+.more-button:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+.more-button a:hover {
+    color: black;
+}

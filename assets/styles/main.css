@@ -1,0 +1,174 @@
+html{
+    font-family: "Dm Serif" , sans-serif;
+}
+
+/* Video container and informations */ 
+
+.container__video{
+    margin-top: 30px;
+    margin-left: 100px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.container__video iframe{
+    border-radius: 8px;
+    border:  1px solid var(--border-color);
+    width: 764px;
+    height: 430px;
+}
+
+/* titulo do video */
+
+.container__video h1 {
+    color: white;
+    font-size: 1.5em;
+    font-family: "DM Serif" , sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+/* informações do user */
+
+.profile__properties{
+    margin-top: 10px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    width: fit-content;
+}
+
+#profile-img-below img{    
+    width: 50px;
+    height: auto;
+    border-radius: 50px;
+}
+
+.profile-information {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.profile-information h2 {
+    font-size: 16px;
+    color: white;
+}
+
+.profile-information p {
+    margin-top: 10px;
+    margin-left: 4px;
+    font-size: 0.8em;
+    color: gray;
+}
+
+/* botões de subscribe, like, dislike , compartilhar e mais */ 
+
+.video-button-info {
+    display: flex;
+    flex-direction: row;
+    align-items:first baseline;
+    justify-content: space-between;
+    gap: 10px 12px;
+    margin-left: 10px;
+}
+
+.video-button {
+    background-color: var(--button-color);
+    padding: 10px 12px;
+    border:  1px solid var(--border-color);
+}
+
+/* subscribe button */ 
+
+.subscribe-button {
+    border-radius: 50px;
+    background-color: white;
+}
+
+
+.subscribe-button a {
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(31, 30, 30);    
+}
+
+/* like and dislike button */
+
+.formation-likeable{
+    margin-left: 155px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.likeable {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5px;
+    width: fit-content;
+}
+
+.likeable .like-button {
+    border-radius: 50px 0 0 50px;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.likeable .dislike-button {
+    border-radius: 0 50px 50px 0;
+    width: fit-content;
+}
+
+.likeable .like-button p {
+   margin-left: 6px;
+   color: white;
+   font-size: 0.9em;
+}
+
+/* botão de compartilhar */
+
+.share-button {
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: fit-content;
+
+}
+
+.share-button a {
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+}
+
+.share-button p {
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    margin: 0 10px 0 10px;
+}
+
+/* bottão mais */ 
+
+.more-button {
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 12px 12px 10px;
+    width: fit-content;
+}
+
+.more-button a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+}

@@ -1,0 +1,51 @@
+*{
+    font-family: "Dm Sans" , sans-serif;
+}
+
+
+
+.videos-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(4, 300px); 
+    gap: 10px 8px;
+
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+.video-screen{
+    display: flex;
+    align-items: start;
+    color: white;
+    flex-direction: column;  
+     
+}
+
+.video-screen img {
+    border-radius: 8px;
+    width: 347px;
+    height: 194px;
+}
+
+.title{
+    font-size: 16px;
+    padding: 8px 0;
+    font-weight: 600;
+}
+
+.canal{
+    font-size: 14px;
+    color: gray;
+    font-weight: 400;
+    padding: 0 0 2px 0;
+}
+
+.views{
+    font-size: 14px;
+    color: gray;
+    font-weight: 400;
+    padding: 0 0 2px 0;
+}
