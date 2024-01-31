@@ -11,6 +11,7 @@
 
    .logo a img{
     display: block;
+    width: 60px;
     }
 
     .search-bar {
@@ -19,15 +20,33 @@
         align-items: center;
     }
 
+    .search-bar .speech-search{
+        padding: 12px 20px;
+        border:  1px solid var(--border-color);
+        border-radius: 50px;
+        margin-left: 5px;
+        background-color: var(--button-color);
+    }
+
     .search__input input{
         padding: 10px 20px;
         border:  1px solid var(--border-color);
-        font-size: 1.1em;
+        font-size: 1em;
         color: rgb(156, 156, 156);
-        width: 275px;
+        width: 50px;
         border-radius: 20px 0 0 20px;
         background-color: var(--search-input-color);
+        margin-left: -20px;
     }
+
+
+    #profile-img img{    
+        width: 30px;
+        height: auto;
+        border-radius: 50px;
+        margin-right: 40px;
+    }
+
 
     /* video e profile */
     
@@ -42,7 +61,8 @@
     .container__video iframe{
         border-radius: 8px;
         border:  1px solid var(--border-color);
-        width: 645px;
+        width: 380px;
+        height: 250px;
     }
 
     /* perfil e botões do video */
@@ -62,10 +82,11 @@
     }
 
     .formation-likeable{
-        margin-left: 80px;
+        margin-left: 10px;
         display: flex;
+        flex-direction:column;
         justify-content: space-between;
-        align-items: center;
+        align-items:flex-start;
         gap: 10px;
     }
 
@@ -75,5 +96,26 @@
         width: 90px;
     }
 
+    /* grid dos videos index */ 
+
+    .videos-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); 
+        grid-template-rows: repeat(6, 300px); 
+        gap: 10px 8px;
+    
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .video-screen img {
+        border-radius: 8px;
+        width: 380px;
+        height: 194px;
+    }
+
+    #video12{
+        margin-bottom: 20px;
+    }
 
 }
